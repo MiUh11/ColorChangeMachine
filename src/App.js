@@ -4,7 +4,9 @@ import "./App.css";
 import { useWindowSize } from "react-use";
 import classNames from "classnames";
 
-import Box from "./Box";
+import Box1 from "./Box1";
+import Box2 from "./Box2";
+import Box3 from "./Box3";
 
 const THEMES = {
   LIGHT: "LIGHT",
@@ -47,9 +49,9 @@ export default function App() {
     >
       <h1>Color Changing Machine</h1>
       <div className="boxes-wrapper">
-        <Box boxDimension={boxDimension} />
-        <Box boxDimension={boxDimension} />
-        <Box boxDimension={boxDimension} />
+        <Box1 boxDimension={boxDimension} />
+        <Box2 boxDimension={boxDimension} />
+        <Box3 boxDimension={boxDimension} />
       </div>
       <div className="buttons">
         <button
